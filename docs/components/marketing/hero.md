@@ -74,7 +74,7 @@ Start by changing these key value pairs. All the other ones unmentioned in the f
 
 # Themes & Styles
 
-I go into more depth in the [Themes & Styles page](/features/themes-style), however I figured I would briefly mention it here. 
+I go into more depth in the [Themes & Styles page](/features/themes), however I figured I would briefly mention it here. 
 
 This application is setup mainly with ShadCN and ShadCN themes and styles CSS variables. 
 

@@ -24,5 +24,5 @@ Start by changing these key value pairs. All the other ones unmentioned in the f
   - **authRoutes:** Typically you will never modify this, but the routes in this array will redirect logged in users to the defaultLoginRedirect route which is set to “/dashboard” by default.
   - **apiAuthPrefix:** for auth purposes, this is the defined api route for auth. No need to change this.
   - **defaultLoginRedirect:** The redirection path that the user goes to after logging in.
-- **fileStorage:** The bucket name and url for your file storage. Will be configured in the [Setup File Storage](/docs/tutorials/setup-file-storage) tutorial page.
-- **stripe:** This is where you define your stripe product / plan information. We will configure this in the [Setup Stripe](/docs/tutorials/setup-stripe) tutorial page.
+- **fileStorage:** The bucket name and url for your file storage. Will be configured in the [Setup File Storage](/tutorials/setup-file-storage) tutorial page.
+- **stripe:** This is where you define your stripe product / plan information. We will configure this in the [Setup Stripe](/tutorials/setup-stripe) tutorial page.
