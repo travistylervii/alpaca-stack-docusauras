@@ -6,12 +6,13 @@ sidebar_position: 7
 
 To support the built-in content management system for the blog, we need a reliable file storage solution. I recommend using Backblaze due to its affordability, although Amazon S3 is also a viable option. This tutorial will guide you through setting up Backblaze.
 
-# Video Tutorial
+## Video Tutorial
+### Setup Backblaze File Storage
 <div className="video-responsive">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/an_iWNAh5c8?si=19aF8xNR2G_y4ShA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 </div>
 
-# Written Tutorial
+## Written Tutorial
 
 ### 1. Register for Backblaze
 

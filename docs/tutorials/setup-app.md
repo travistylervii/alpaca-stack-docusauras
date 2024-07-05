@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Setup App
 
-# Video Tutorial
+## Video Tutorials
 ### Download Files To Local (Git clone)
 In this video I go over how to get access to the files using Git Clone Command in the terminal.
 <div className="video-responsive">
@@ -17,8 +17,8 @@ In this video I show you how to setup the environment (.env) file for the Alpaca
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vZnSDHCD5Gs?si=Go2XnRNVK1ecM9AA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 </div>
 
-# Written Tutorial
-## 1 - Get Access to the Repository
+## Written Tutorial
+### 1. Get Access to the Repository
 
 After purchasing Alpaca Stack, you will gain access to an invite form on the dashboard page ([Alpaca Stack Dashboard](https://alpacastack.com/dashboard)).
 
@@ -29,7 +29,7 @@ To gain access to the repository:
 
 You will receive an email from GitHub with an invitation. If you don't see the email in your inbox, check your spam folder. Accept the invitation to gain access to the repository.
 
-## 2 - Download Files
+### 2. Download Files
 
 Once you have access to the private repository:
 
@@ -37,7 +37,7 @@ Once you have access to the private repository:
 2. Navigate (cd) to the directory where you want to store the files on your local machine.
 3. Clone the repository to your local machine using the following command: git clone [repo]
 
-## 3 - Install Dependencies
+### 3. Install Dependencies
 
 To install the necessary dependencies:
 
@@ -46,7 +46,7 @@ To install the necessary dependencies:
 
 Allow the installer to download all the required NPM modules.
 
-## 4 - Setup ENV File
+### 4. Setup ENV File
 
 To set up your environment variables:
 

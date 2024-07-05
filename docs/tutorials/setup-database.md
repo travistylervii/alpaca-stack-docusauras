@@ -4,14 +4,13 @@ sidebar_position: 4
 
 # Setup Database
 
-The primary database used in Alpaca Stack is PostgreSQL, a standard in many industries.
-
+The primary database used in Alpaca Stack is PostgreSQL, the standard in the industry. 
 Also Prisma is used for the ORM, which simplifies the setup and makes it quick and easy to get started.
 
-While there are many managed and unmanaged database solutions available, the setup described below is my preferred method. It offers a fast, scalable, and cost-effective solution.
+While there are many managed and unmanaged database solutions available, the setup described below is my preferred method for getting something up and running asap at an afforable cost. 
 
-# Video Tutorial
-## Setup Neon.tech
+## Video Tutorial
+### Setup PostgreSQL with neon.tech
 In this video I go over how to setup the PostgreSQL database using Neon.tech for the Alpaca Stack Boilerplate Template.
 <div className="video-responsive">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UhTL2tpqHcc?si=2eZ-Adm3T3ZqrSKv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -23,9 +22,9 @@ In this video I show you how to setup your local database client so you don't ha
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FrzZ4_8fQlw?si=QkK3AJM_CTErHZ2T" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 </div>
 
-# Written Tutorial
+## Written Tutorial
 
-## 1. Sign Up for Neon
+### 1. Sign Up for Neon
 
 In this tutorial, we will set up the database using [Neon](https://neon.tech/), which offers a straightforward pricing structure and an easy-to-use interface. However, you are free to use any other PostgreSQL solution, such as Supabase, or even host your own using Hetzner and Coolify.
 
@@ -36,13 +35,13 @@ In this tutorial, we will set up the database using [Neon](https://neon.tech/), 
 
 ![Neon Register](/img/neon-getting-started.jpeg)
 
-## 2. Copy the PSQL URL
+### 2. Copy the PSQL URL
 
 - After creating your database, under **Connection Details**, copy the **Connection String**.
 
 ![Neon Connection String](/img/neon-connection-string.jpeg)
 
-## 3. Paste the Connection String into the .env File
+### 3. Paste the Connection String into the .env File
 
 - In your app's **.env** file, locate the `DATABASE_URL` and `DIRECT_URL` variables, and paste the same connection string into both.
 
@@ -54,21 +53,21 @@ In this tutorial, we will set up the database using [Neon](https://neon.tech/), 
   - This optional field can be used to provide a direct connection URL to the database server, bypassing any load balancers or proxies specified in the main url.
   - It can be useful for operations like migrations or specific read/write operations that require a direct connection.
 
-## 4. Generate the Prisma Client
+### 4. Generate the Prisma Client
 
-- After adding the connection strings to your **.env** file, open your terminal and navigate to your application's root folder. Run the command `npx prisma generate` (ignore any notifications about upgrading).
+- After adding the connection strings to your **.env** file, open your terminal and navigate to your application's root folder. Run the command `npx prisma generate` (ignore any notifications about upgrading. This may break authentication. Upgrade at your own risk).
 
-## 5. Create Database Tables
+### 5. Create Database Tables
 
 - After generating the Prisma client, run `npx prisma db push` to allow Prisma to create the tables in the database as defined in your Prisma schema **(/prisma/schema.prisma)**.
 
-## 6. Check the Database and Tables
+### 6. Check the Database and Tables
 
 - After successfully running the command, your database should now be in sync with the Prisma schema. Go back to Neon (or your chosen database solution) to verify that the tables have been created. The tables will initially be empty, but they should now exist.
 
-## 7. About Prisma ORM and Its Files
+### 7. About Prisma ORM and Its Files
 
-The application is set up to use Prisma.
+The application is set up to use [Prisma ORM](https://www.prisma.io/).
 
 Prisma is an open-source ORM (Object-Relational Mapping) tool that simplifies database management and access in modern applications. It provides a type-safe database client, a powerful migration system, and a declarative data modeling language. Prisma supports multiple databases, including PostgreSQL, MySQL, SQLite, and MongoDB.
 
