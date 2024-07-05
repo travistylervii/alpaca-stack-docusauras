@@ -75,6 +75,7 @@ const LoginPage = () => {
                 subtitle="Welcome back"
                 backButtonLabel="Don't have an account? Sign up!"
                 backButtonHref="/register"
+                //highlight-next-line
                 showSocial //remove this line or change to showSocial={false}
             >
                 <LoginForm />

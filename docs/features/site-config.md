@@ -8,7 +8,7 @@ This is the backbone of the application. It has global settings and constants th
 Start by changing these key value pairs. All the other ones unmentioned in the file will be changes throughout the remaining of the tutorial. 
 
 ## File Location
-- /site-config.ts
+- `/site-config.ts`
 
 ## Config Settings
 - **appName:** This is reflected in multiple parts of the app including the SEO metadata and copyright section at the bottom of the application.
