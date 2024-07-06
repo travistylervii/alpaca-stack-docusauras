@@ -16,7 +16,7 @@ Essentially, features describe the product, while benefits highlight why it matt
 ## Benefits Section 1
 ![Benefits Section 1](/img/benefits-section.jpeg)
 
-## Usage
+### Usage
 ```typescript
 import { BenefitsSection1 } from "@/components/marketing/benefits-section1";
 ```

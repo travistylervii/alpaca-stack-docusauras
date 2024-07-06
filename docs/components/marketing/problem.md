@@ -7,6 +7,7 @@ The Problem Section is a crucial marketing component designed to resonate with o
 
 ## Problem Section 1
 ![Problem Section 1](/img/problem-section.jpeg)
+### Usage
 ```typescript
 import { ProblemSection1 } from "@/components/marketing/problem-section1";
 ```
@@ -14,7 +15,7 @@ import { ProblemSection1 } from "@/components/marketing/problem-section1";
 <ProblemSection1 />
 ```
 
-## Tips for the Problem Section
+## Tips 
 
 - **Know Your Audience**: Understand your target audience’s pain points and tailor the content to address their specific challenges.
 - **Empathy and Understanding**: Use empathetic language to show that you genuinely understand the user's problems and challenges.

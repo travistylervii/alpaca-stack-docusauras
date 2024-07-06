@@ -7,6 +7,7 @@ The Trust Logos Section is designed to establish credibility and build trust in 
 
 ## Trust Logo Section 1
 ![Trust Logo Section](/img/trust-logo-section.jpeg)
+### Usage
 ```typescript
 import { TrustLogosSection1 } from "@/components/marketing/trust-logos-section1";
 ```

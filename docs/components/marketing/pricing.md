@@ -8,11 +8,10 @@ The Pricing Section clearly outlines the cost of our product or service, present
 ## Pricing Section 1
 ![Pricing Section 1](/img/pricing-section.jpeg)
 
-## Usage
+### Site Config File
 The component utilizes data from site-config.ts, specifically the plans array. You can add multiple plans to the plans array to create additional boxes within the component. However, for optimal user experience and clarity, it is recommended to keep the number of plans minimal, ideally under three.
 
-**site-config.ts:**
-```typescript
+```typescript title="/site-config.ts"
   stripe: {
     plans: [
       {
@@ -114,9 +113,9 @@ The component utilizes data from site-config.ts, specifically the plans array. Y
       },
     ],
   },
-```
 
-**page.tsx**
+```
+### Usage
 ```typescript
 import { PricingSection1 } from "@/components/marketing/pricing-section1";
 ```
@@ -124,7 +123,7 @@ import { PricingSection1 } from "@/components/marketing/pricing-section1";
 <PricingSection1 />
 ```
 
-## Tips:
+## Tips
 - **Clear and Transparent Pricing**: Display pricing plans and costs in a straightforward and transparent manner, avoiding hidden fees or complex structures.
 - **Highlight Key Features**: For each pricing plan, list the key features and benefits included, making it easy for users to compare options.
 - **Money-Back Guarantee**: If applicable, mention any money-back guarantees or trial periods to reduce perceived risk and encourage sign-ups.

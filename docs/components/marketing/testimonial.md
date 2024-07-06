@@ -8,7 +8,7 @@ The Testimonial Section showcases positive feedback and success stories from sat
 ## Testimonials Section 1
 ![Testimonial Section 1](/img/testimonial-section-1.jpeg)
 
-## Usage
+### Usage
 ```typescript
 import { TestimonialSection1 } from "@/components/marketing/testimonial-section1";
 ```
@@ -19,7 +19,7 @@ import { TestimonialSection1 } from "@/components/marketing/testimonial-section1
 ## Testimonials Section 2
 ![Testimonial Section 2](/img/testimonial-section-2.jpeg)
 
-## Usage
+### Usage
 ```typescript
 import { TestimonialSection2 } from "@/components/marketing/testimonial-section2";
 ```
@@ -27,7 +27,7 @@ import { TestimonialSection2 } from "@/components/marketing/testimonial-section2
 <TestimonialSection2 />
 ```
 
-### Tips
+## Tips
 
 - **Smart Placement**: Place some testimonials directly under the Hero Section (under Trust Logos use TestimonialSection1) and then place a bunch of other testimonials right before the Pricing Section (TestimonialSection2) 
 - **Authentic Testimonials**: Use genuine testimonials from real customers to build trust and credibility. Ensure that the testimonials are honest and relatable.

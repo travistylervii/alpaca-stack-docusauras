@@ -11,7 +11,7 @@ The routes are handled in the /constants/nav-routes.ts file. Here, you will find
 ## Header Section 1
 ![Header Section 1](/img/header-section.jpeg)
 
-## Usage
+### Usage
 ```typescript
 import { MarketingHeader } from "@/components/marketing/header-section";
 ```

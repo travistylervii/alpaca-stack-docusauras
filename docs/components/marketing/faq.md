@@ -8,7 +8,7 @@ The FAQ Section addresses common questions and concerns that potential customers
 ## FAQ Section 1
 ![FAQ Section 1](/img/faq-section.jpeg)
 
-## Usage
+### Usage
 ```typescript
 import { FAQSection1 } from "@/components/marketing/faq-section1";
 ```
