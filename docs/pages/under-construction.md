@@ -5,7 +5,7 @@ sidebar_position: 8
 
 The Under Construction page notifies visitors that the website is currently being developed and will be available soon, encouraging them to check back later for updates.
 
-![Under Construction Page](/img/under-construction-page.jpeg)
+![Under Construction Page](/img/under-construction-page.jpg)
 
 ## Notes
 

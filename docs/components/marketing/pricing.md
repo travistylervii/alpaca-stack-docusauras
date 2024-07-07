@@ -6,7 +6,7 @@ sidebar_position: 9
 The Pricing Section clearly outlines the cost of our product or service, presenting different pricing plans and options to cater to various user needs and budgets. This section is designed to be transparent and informative, helping potential customers understand the value they will receive at each price point. By showcasing the pricing structure effectively, this section aims to guide users toward the plan that best fits their requirements.
 
 ## Pricing Section 1
-![Pricing Section 1](/img/pricing-section.jpeg)
+![Pricing Section 1](/img/pricing-section.jpg)
 
 ### Site Config File
 The component utilizes data from site-config.ts, specifically the plans array. You can add multiple plans to the plans array to create additional boxes within the component. However, for optimal user experience and clarity, it is recommended to keep the number of plans minimal, ideally under three.

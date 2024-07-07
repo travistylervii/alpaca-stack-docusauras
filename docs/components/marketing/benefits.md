@@ -14,7 +14,7 @@ The Benefits Section is designed to clearly articulate the key advantages and po
 Essentially, features describe the product, while benefits highlight why it matters to the user.
 
 ## Benefits Section 1
-![Benefits Section 1](/img/benefits-section.jpeg)
+![Benefits Section 1](/img/benefits-section.jpg)
 
 ### Usage
 ```typescript

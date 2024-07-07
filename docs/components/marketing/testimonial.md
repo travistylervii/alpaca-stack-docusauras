@@ -6,7 +6,7 @@ sidebar_position: 5
 The Testimonial Section showcases positive feedback and success stories from satisfied customers, providing social proof and building trust with potential clients. This section highlights real-life experiences and endorsements that demonstrate the value and effectiveness of our product or service. By featuring authentic testimonials, this section aims to reassure prospective customers of their decision to choose our offering.
 
 ## Testimonials Section 1
-![Testimonial Section 1](/img/testimonial-section-1.jpeg)
+![Testimonial Section 1](/img/testimonial-section-1.jpg)
 
 ### Usage
 ```typescript
@@ -17,7 +17,7 @@ import { TestimonialSection1 } from "@/components/marketing/testimonial-section1
 ```
 
 ## Testimonials Section 2
-![Testimonial Section 2](/img/testimonial-section-2.jpeg)
+![Testimonial Section 2](/img/testimonial-section-2.jpg)
 
 ### Usage
 ```typescript

@@ -6,7 +6,7 @@ The FAQ Section addresses common questions and concerns that potential customers
 
 
 ## FAQ Section 1
-![FAQ Section 1](/img/faq-section.jpeg)
+![FAQ Section 1](/img/faq-section.jpg)
 
 ### Usage
 ```typescript

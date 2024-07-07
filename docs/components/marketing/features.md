@@ -14,7 +14,7 @@ The Features Section provides a detailed overview of the specific characteristic
 Essentially, features describe the product, while benefits highlight why it matters to the user.
 
 ## Features Section 1
-![Features Section 1](/img/features-section.jpeg)
+![Features Section 1](/img/features-section.jpg)
 
 ### Usage
 ```typescript

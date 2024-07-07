@@ -9,7 +9,7 @@ The Header Component is designed for the marketing side of our Next.js applicati
 The routes are handled in the /constants/nav-routes.ts file. Here, you will find all the navigation routes for various menus, including the header menu, footer menu, dashboard menu, admin menu, and sidebar menus.
 
 ## Header Section 1
-![Header Section 1](/img/header-section.jpeg)
+![Header Section 1](/img/header-section.jpg)
 
 ### Usage
 ```typescript

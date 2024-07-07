@@ -6,7 +6,7 @@ sidebar_position: 10
 A Call to Action (CTA) Section is a crucial part of a website designed to prompt visitors to take a specific action, such as signing up for a newsletter, downloading a resource, or making a purchase. This section typically features compelling, action-oriented language and a prominent button or link to guide users towards the desired outcome.
 
 ## Call-to-action 1 Section
-![CTA Section 1](/img/cta-section-1.jpeg)
+![CTA Section 1](/img/cta-section-1.jpg)
 
 ### Usage
 ```typescript
@@ -16,7 +16,7 @@ import { CTASection1 } from "@/components/marketing/cta-section1";
 <CTASection1 />
 ```
 ## Call-To-Action Card
-![CTA Card 1](/img/cta-card-1.jpeg)
+![CTA Card 1](/img/cta-card-1.jpg)
 
 ### Usage
 ```typescript

@@ -5,7 +5,7 @@ sidebar_position: 10
 
 The 404 Page is a crucial part of the user experience, appearing when visitors try to access a page that doesn’t exist on your website. This page should clearly inform users that the page they’re looking for cannot be found while guiding them back to useful content or navigation options. An effective 404 Page helps to minimize user frustration and keeps visitors engaged with your site.
 
-![404 Not Found Page](/img/404-not-found-page.jpeg)
+![404 Not Found Page](/img/404-not-found-page.jpg)
 
 ## Usage
 - Location: `/app/not-found.tsx`

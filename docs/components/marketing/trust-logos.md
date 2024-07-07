@@ -6,7 +6,7 @@ sidebar_position: 3
 The Trust Logos Section is designed to establish credibility and build trust in our product or service by showcasing logos of well-known clients, partners, or industry certifications. This section serves as a visual testament to our reliability and reputation, helping to assure potential customers of our proven track record and the quality of our offerings.
 
 ## Trust Logo Section 1
-![Trust Logo Section](/img/trust-logo-section.jpeg)
+![Trust Logo Section](/img/trust-logo-section.jpg)
 ### Usage
 ```typescript
 import { TrustLogosSection1 } from "@/components/marketing/trust-logos-section1";

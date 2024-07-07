@@ -6,7 +6,7 @@ sidebar_position: 4
 The Problem Section is a crucial marketing component designed to resonate with our target audience by clearly articulating the primary problem they face. This section highlights the pain points and challenges that users encounter, setting the stage for our product or service as the ideal solution. By connecting with users on a personal level and demonstrating an understanding of their needs, the Problem Section aims to engage visitors and motivate them to explore how our offering can address their specific issues effectively.
 
 ## Problem Section 1
-![Problem Section 1](/img/problem-section.jpeg)
+![Problem Section 1](/img/problem-section.jpg)
 ### Usage
 ```typescript
 import { ProblemSection1 } from "@/components/marketing/problem-section1";

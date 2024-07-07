@@ -6,7 +6,7 @@ sidebar_position: 2
 The Hero Section is the main focal point of our Next.js application, showcasing a compelling headline, subheadline, and a call-to-action button to engage visitors immediately. It provides a visually impactful introduction to the app, designed to capture attention and drive user interaction.
 
 ## Hero Section 1
-![Hero Section 1](/img/hero-section-1.jpeg)
+![Hero Section 1](/img/hero-section-1.jpg)
 
 ### Usage
 ```typescript
@@ -17,7 +17,7 @@ import { HeroSection1 } from "@/components/marketing/sections/hero-section1";
 ```
 
 ## Hero Section 2
-![Hero Section 2](/img/hero-section-2.jpeg)
+![Hero Section 2](/img/hero-section-2.jpg)
 
 ### Usage
 ```typescript
